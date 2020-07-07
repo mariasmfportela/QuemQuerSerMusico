@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Quem quer ser Músico?</title>
+    
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+
+  </head>
+
+  <body onload="fn(displayQuestion)">
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+<!--Header-->
+         <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><img src="images/logo-conservatorio.png" height="80"></h3>
+              <nav>
+                <ul class="nav masthead-nav">              
+                  <li id="timeBonus">Bónus de tempo:</li>
+                  <li id="timer">00</li>
+                  <li>Pontuação:</li>
+                  <li id="score">00</li>
+                  <li id="levelText"></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+         
+<!--Main content-->
+          <div class="inner cover">
+            <h3 class="question-main" id="qText">Uma pergunta qualquer? Esta pergunta terá várias linhas de extensão e muitos carateres, pelo que é importante ter isto em consideração na formatação!!!</h3>
+
+            <div class="question-wrapper" style="position: relative">
+              
+              <form id="form">
+                <label class="choice-container"><p id="ch1" style="display: inline">Opção 1</p><input type="radio" name="choice" id="chR1" value="a"><span class="checkmark"></span></label><br>
+                <label class="choice-container"><p id="ch2" style="display: inline">Opção 2</p><input type="radio" name="choice" id="chR2" value="b"><span class="checkmark"></span></label><br>
+                <label class="choice-container"><p id="ch3" style="display: inline">Opção 3</p><input type="radio" name="choice" id="chR3" value="c"><span class="checkmark"></span></label><br>
+                <label class="choice-container"><p id="ch4" style="display: inline">Opção 4</p><input type="radio" name="choice" id="chR4" value="d"><span class="checkmark"></span></label>
+              </form>
+              
+              <div id="answer">
+                <h3 id="answerResult">Resposta (correta/errada)</h3>
+                <p id="explain">Breve parágrafo explicando a resposta</p>
+              </div>
+              
+            </div>
+            
+            <p id="btn1">
+              <a href="#" class="btn btn-lg btn-default" onclick="getAnswer()">É a minha resposta!</a>
+            </p>
+            
+            <p id="btn2">
+              <a href="#" class="btn btn-lg btn-default" onclick="fn(nextQuestion)">Próxima pergunta</a>
+            </p>
+            
+            <p id="btn3">
+              <a href="#" class="btn btn-lg btn-default" onclick="gameOver()">Terminar</a>
+            </p>
+            
+            <p id="btn4">
+              <a href="index.html" class="btn btn-lg btn-default">Regressar</a>
+            </p>
+            
+          </div>
+
+<!--Footer-->
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Créditos <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="javaLayout.js"></script>
+  </body>
+</html>

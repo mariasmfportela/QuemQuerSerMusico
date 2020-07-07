@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Quem quer ser Músico?</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+  </head>
+
+  <body onload="levelSelect()">
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+<!--Header-->
+         <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><a href="index.html"><img src="images/logo-conservatorio.png" height="80"></a></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          
+<!--Main Content-->
+          <div class="inner cover">
+            
+            <h3 class="cover-heading" id="teste">Selecionar dificuldade</h3>
+            <p style="padding: 10px">Seleciona o número de perguntas para cada nível de dificuldade</p>
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-8"><input type="range" min="0" max="5" value="5" class="slider" id="sliderEasy"></div>
+                <div class="col-sm-1"><p id="textEasy">5</p></div>
+                <div class="col-sm-3"><p> Nível fácil</p></div>
+              </div>
+              <div class="row">
+                <div class="col-sm-8"><input type="range" min="0" max="5" value="5" class="slider" id="sliderMed"></div>
+                <div class="col-sm-1"><p id="textMed">5</p></div>
+                <div class="col-sm-3"><p> Nível médio</p></div>
+              </div>
+              <div class="row">
+                <div class="col-sm-8"><input type="range" min="0" max="5" value="5" class="slider" id="sliderHard"></div>
+                <div class="col-sm-1"><p id="textHard">5</p></div>
+                <div class="col-sm-3"><p> Nível difícil</p></div>
+              </div>
+            </div>
+
+            <p class="lead" style="position: relative">
+              <a href="#" class="btn btn-lg btn-default" id="btnLevel" onclick="fn(setup)">Jogar</a>
+            </p>
+
+          </div>
+
+<!--Footer-->
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Créditos <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="javaLayout.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,373 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #003D4D;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #ffffff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #003D4D;
+}
+body {
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0,0,0,.5);
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*
+ * Header
+ */
+
+.masthead clearfix {
+  height: auto;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+  text-align: right;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+  .masthead-brand {
+    float: left;
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+  .masthead-nav {
+    float: right;
+    padding: 10px;
+    padding-bottom: 0px;
+   
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.row {
+  padding-bottom: 10px;
+}
+
+/* Buttons */
+
+#imageOverlay {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 61, 77, 0.9);
+  z-index: 2;
+}
+
+@media (min-width: 768px) and (min-height: 570px) {
+  #imageOverlay {
+    cursor: zoom-out;
+  }
+  #imageFile {
+    cursor: zoom-in;
+  }
+}
+
+#imageFileOverlay {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#answer {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 61, 77, 0.9);
+  z-index: 2;
+}
+
+#levelSelectPage {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 61, 77, 1);
+  z-index: 2;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 20px;
+    background: #008cb1;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #008cb1;
+    cursor: pointer;
+}
+
+#btn1 {
+  padding-top: 20px;
+}
+
+#btn2 {
+  padding-top: 20px;
+  display: none;
+}
+
+#btn3 {
+  padding-top: 20px;
+  display: none;
+}
+
+#btn4 {
+  padding-top: 20px;
+  display: none;
+}
+
+/* Animation */
+@keyframes scoreAnimation {
+    from {color: #fff; font-size: 100%;}
+    to {color: #21f71a; font-size: 120%;}
+}
+
+.animation {
+  animation-name: scoreAnimation;
+  animation-duration: 0.25s;
+  animation-direction: alternate;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-out;
+}
+
+/*
+ * Question Pages
+ */
+
+#explain {
+  line-height: normal;
+}
+
+.question-main {
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.question-wrapper {
+  padding: 0 20px;
+  line-height: 10px;
+}
+
+.choice-container {
+  display: block;
+  line-height: 35px;
+  margin-bottom: 0;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left;
+}
+
+.choice-container input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 25px;
+  width: 25px;
+  background-color: #7caab7;
+  border-radius: 50%;
+}
+
+.checkmark:hover {
+  background-color: #fff;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.choice-container:hover .checkmark{
+  background-color: #fff;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.choice-container input:checked ~ .checkmark {
+  background-color: #fff;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.choice-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.choice-container .checkmark:after {
+ 	top: 6.5px;
+	left: 6.5px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #003D4D;
+}
+
+.lead {
+  padding-top: 20px;
+}
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) and (min-height: 570px){
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 768px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 768px;
+  }
+}

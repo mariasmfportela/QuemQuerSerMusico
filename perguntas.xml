@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  
+<!-- Exemplo, copiar (sem as secções indicadas por //) e alterar texto para acrescentar perguntas
+  
+  <easy>
+    <title type="simple">Texto da pergunta</title> //"type" pode ser "simple", "image" ou "audio"
+    <choice correct="v">A hipótese correta</choice> //A hipótese correta deve ter a indicação "correct" como neste exemplo
+    //as hipóteses incorretas, por ordem arbitrária
+    <choice>Uma hipótese incorreta</choice>
+    <choice>Uma hipótese incorreta</choice>
+    <choice>Uma hipótese incorreta</choice>
+    <explain>Breve parágrafo explicando a resposta.</explain>
+    <media></media> //url da imagem ou audio que acompanha a pergunta, com indicação da pasta e extensão
+  </easy>
+
+  <easy>
+    <title type=""></title>
+    <choice correct=""></choice>
+    <choice></choice>
+    <choice></choice>
+    <choice></choice>
+    <explain></explain>
+    <media></media>
+  </easy>
+
+Fim do exemplo -->  
+  
+  <!-- Perguntas de dificuldade fácil -->
+<questionList>
+  
+  <easy index="0">
+    <title type="simple">Qual dos seguintes instrumentos não faz parte do típico quinteto de madeiras?</title>
+    <choice correct="">Saxofone</choice>
+    <choice>Trompa</choice>
+    <choice>Oboé</choice>
+    <choice>Fagote</choice>
+    <explain>Tipicamente, os quintetos de madeiras incluem uma flauta, um clarinete, um oboé, um fagote e uma trompa, mesmo não sendo a trompa da família das madeiras!</explain>
+  </easy>
+  
+  <easy index="1">
+    <title type="image">Que género de obra está a ser executada?</title>
+    <choice correct="">Concerto Solo</choice>
+    <choice>Concerto Grosso</choice>
+    <choice>Sinfonia</choice>
+    <choice>Quarteto</choice>
+    <explain>Na imagem vemos uma violinista a tocar a solo, acompanhada por uma orquestra. Das hipóteses apresentadas, apenas o concerto solo apresenta solista. A sinfonia e o concerto grosso são composições para orquestra, e o quarteto é para um agrupamento de quatro instrumentistas.</explain>
+    <media>images/imagem01.jpg</media>
+  </easy>
+  
+  <easy index="2">
+    <title type="simple">Qual o significado da expressão "alla breve"?</title>
+    <choice correct="">A unidade de tempo é a mínima</choice>
+    <choice>A unidade de tempo é a semínima</choice>
+    <choice>O tempo deve ser lento</choice>
+    <choice>O tempo deve ser rápido</choice>
+    <explain>A expressão "alla breve" significa em italiano, literalmente, "à minima", ou seja, a mínima é a unidade de tempo.</explain>
+  </easy>
+  
+  <easy index="3">
+    <title type="simple">Qual dos seguintes andamentos tem uma pulsação mais lenta?</title>
+    <choice correct="">Grave</choice>
+    <choice>Largo</choice>
+    <choice>Lento</choice>
+    <choice>Adagio</choice>
+    <explain>A ordem correta deste andamentos, do mais lento para o mais rápido, é: Grave, Largo, Lento, Adagio</explain>
+  </easy>
+  
+  <easy index="4">
+    <title type="simple">Em que período da História da Música se introduziram as ideias de "crescendo" e "decrescendo"?</title>
+    <choice correct="">Classicismo</choice>
+    <choice>Barroco</choice>
+    <choice>Renascimento</choice>
+    <choice>Idade Média</choice>
+    <explain>Apenas no período Clássico se introduziram as noções de "crescendo" e "decrescendo", com o desenvolvimento da prática orquestral e a procura por maior diversidade tímbrica.</explain>
+  </easy>
+  
+  <easy index="5">
+    <title type="image">Que instrumento é este?</title>
+    <choice correct="">Trompete</choice>
+    <choice>Trombone</choice>
+    <choice>Trompa</choice>
+    <choice>Tuba</choice>
+    <explain>A imagem é um pormenor de um trompete. Podemos ver um dos pistões (os outros estão escondidos) e a campânula à frente.</explain>
+    <media>images/imagem04.jpg</media>
+  </easy>
+  
+  <easy index="6">
+    <title type="audio">Qual o instrumento solista neste excerto?</title>
+    <choice correct="">Flauta</choice>
+    <choice>Trompa</choice>
+    <choice>Órgão</choice>
+    <choice>Clarinete</choice>
+    <explain>Neste excerto inicial da obra "Prélude à l'áprés-midi d'un Faune", uma obra escrita por Claude Debussy em 1894, ouvimos a flauta como instrumento solista.</explain>
+    <media>audio/audio01.mp3</media>
+  </easy>
+  
+  <easy index="7">
+    <title type="simple">Qual o significado da expressão "ad libitum"?</title>
+    <choice correct="">À escolha</choice>
+    <choice>Até ao infinito</choice>
+    <choice>Literalmente</choice>
+    <choice>Indispensável</choice>
+    <explain>"Ad libitum" significa, em italiano, à escolha, e é uma expressão usada para indicar passagens musicais que podem ser tocadas segundo o gosto pessoal do intérprete.</explain>
+  </easy>
+  
+  <easy index="8">
+    <title type="image">De que família é este instrumento?</title>
+    <choice correct="">Cordas</choice>
+    <choice>Sopros (madeiras)</choice>
+    <choice>Percussão (madeiras)</choice>
+    <choice>Percussão (peles)</choice>
+    <explain>A imagem é um pormenor do interior de um piano. Podemos ver um martelo, ativado pela respetiva tecla, a percutir as cordas. É a vibração das cordas que produz o som que ouvimos, pelo que dizemos que o piano pertence à família das cordas.</explain>
+    <media>images/imagem03.jpg</media>
+  </easy> 
+  
+  <easy index="9">
+    <title type="image">Estamos perante um...</title>
+    <choice correct="">Aerofone</choice>
+    <choice>Cordofone</choice>
+    <choice>Idiofone</choice>
+    <choice>Membranofone</choice>
+    <explain>A imagem é um pormenor de um órgão de tubos. O som é produzido pela vibração do ar no interior dos tubos, pelo que classificamos este instrumento como um aerofone.</explain>
+    <media>images/imagem02.jpg</media>
+  </easy>
+
+  <easy index="10">
+    <title type="simple">Quantas sinfonias escreveu Beethoven?</title>
+    <choice correct="">9</choice>
+    <choice>12</choice>
+    <choice>35</choice>
+    <choice>4</choice>
+    <explain>Ludwig Van Beethoven compôs 9 sinfonias. Começou uma 10ª, mas morreu antes desta estar concluída.</explain>
+  </easy>
+  
+  <easy index="11">
+    <title type = "audio">Identifica o compositor</title>
+    <choice correct="">Beethoven</choice>
+    <choice>Haydn</choice>
+    <choice>Mozart</choice>
+    <choice>Brahms</choice>
+    <explain>Ouviste um excerto da Sinfonia nº5 em Dó menor, de Ludwig Van Beethoven, composta entre 1804 e 1808.</explain>
+    <media>audio/audio02.mp3</media>
+  </easy>
+  
+  <easy index="12">
+    <title type = "audio">Quem compôs esta obra?</title>
+    <choice correct="">Mozart</choice>
+    <choice>Haydn</choice>
+    <choice>Schubert</choice>
+    <choice>Mendelssohn</choice>
+    <explain>Esta é a Serenata nº13 em Sol maior, para quarteto de cordas, mais conhecida como "Pequena serenata noturna". Foi escrita em 1787 por Wolfgang Amadeus Mozart.</explain>
+    <media>audio/audio03.mp3</media>
+  </easy>
+  
+  <easy index="13">
+    <title type = "simple">Qual a peça mais importante nos instrumentos de cordas orquestrais, que suporta a estrutura e define a qualidade do som?</title>
+    <choice correct="">Alma</choice>
+    <choice>Cavalete</choice>
+    <choice>Braço</choice>
+    <choice>Escala</choice>
+    <explain>A alma é uma peça de madeira, no interior dos instrumentos de corda, que une as placas superior e inferior. Serve de suporte estrutural, transmite o som para as várias partes do instrumento e altera os modos vibratórios, alterando deste modo a qualidade do som.</explain>
+  </easy>
+  
+  <easy index="14">
+    <title type="simple">Qual destes instrumentos NÃO É transpositor?</title>
+    <choice correct="">Trombone</choice>
+    <choice>Clarinete</choice>
+    <choice>Contrabaixo</choice>
+    <choice>Trompa</choice>
+    <explain>O trombone não é um instrumento transpositor, isto é, as notas que toca soam na mesma altura em que aparecem na partitura. Já o clarinete está afinado em Si bemol (isto é, as soa uma 2ª maior abaixo do que está escrito), o contrabaixo transpõe para uma oitava inferior e a trompa soa uma 5ª perfeita abaixo das notas escritas.</explain>
+  </easy>
+  
+  <easy index="15">
+    <title type="audio">Qual é o instrumento solista neste excerto?</title>
+    <choice correct="">Trompa</choice>
+    <choice>Trompete</choice>
+    <choice>Clarinete</choice>
+    <choice>Fagote</choice>
+    <explain>Ouvimos parte do solo de trompa que integra o segundo andamento da 5ª sinfonia em Mi menor de Tchaikovsky, composta em 1888.</explain>
+    <media>audio/audio04.mp3</media>
+  </easy>
+  
+  <easy index="16">
+    <title type="simple">De que meterial eram feitas as cordas dos instrumentos barrocos?</title>
+    <choice correct="">Tripa de animais</choice>
+    <choice>Metal</choice>
+    <choice>Crinas de cavalo</choice>
+    <choice>Seda</choice>
+    <explain>As cordas dos instrumentos barrocos eram feitas de tripa de animais. Hoje em dia, este material foi substituído por vários tipos de metal, incluindo ferro e alumínio, ou fibras sintéticas como o nylon</explain>
+  </easy>
+  
+  <med index="0">
+    <title type="simple">Qual dos seguintes compositores não pertenceu ao grupo conhecido como "Segunda Escola de Viena"?</title>
+    <choice correct="">Harold Schonberg</choice>
+    <choice>Arnold Schoenberg</choice>
+    <choice>Anton Webern</choice>
+    <choice>Alban Berg</choice>
+    <explain>Os três principais vultos da Segunda Escola de Viena, responsáveis por disseminar as técnicas do serialismo integral no início do século XX, foram o compositor Arnold Shoenberg e os seus alunos Anton Webern e Alban Berg.</explain>
+  </med>
+  
+  <med index="1">
+    <title type="simple">Qual destes conhecidos compositores não tem Richard como primeiro nome?</title>
+    <choice correct="">Mahler</choice>
+    <choice>Wagner</choice>
+    <choice>Strauss</choice>
+    <choice>Wetz</choice>
+    <explain>Richard Wagner, Richard Strauss, Richard Wetz e Gustav Mahler foram compositores do período Romântico.</explain>
+  </med>
+  
+  <med index="2">
+    <title type="simple">Qual destes é um instrumento de cordas percutidas?</title>
+    <choice correct="">Celesta</choice>
+    <choice>Cravo</choice>
+    <choice>Órgão</choice>
+    <choice>Virginal</choice>
+    <explain>A celesta é um instrumento de cordas percutidas, o cravo e o virginal são instrumentos de cordas beliscadas (ou "pinçadas"), e o órgão é um aerofone.</explain>
+  </med>
+  
+  <med index="3">
+    <title type="simple">António Vivaldi era um exímio...</title>
+    <choice correct="">Violinista</choice>
+    <choice>Organista</choice>
+    <choice>Maestro</choice>
+    <choice>Flautista</choice>
+    <explain>Vivaldi era um exímio violinista, tendo composto inúmeras peças para este instrumento.</explain>
+  </med>
+  
+  <med index="4">
+    <title type="simple">Qual destas expressões indica uma parte solística?</title>
+    <choice correct="">Hauptstimme</choice>
+    <choice>Nabenstimme</choice>
+    <choice>Tutti</choice>
+    <choice>Ripieno</choice>
+    <explain>Hauptstimme significa, em alemão, "voz principal", portanto uma parte solística, que se destaca. Nabenstimme significa "voz secundária", acompanhamento; Tutti significa, em italiano, "todos"; e ripieno indica o acompanhamento.</explain>
+  </med>
+  
+  <med index="5">
+    <title type="simple">Qual dos seguintes instrumentos não está afinado em si bemol?</title>
+    <choice correct="">Saxofone alto</choice>
+    <choice>Saxofone soprano</choice>
+    <choice>Saxofone tenor</choice>
+    <choice>Saxofone baixo</choice>
+    <explain>O saxofone alto está afinado em mi bemol.</explain>
+  </med>
+  
+  <med index="6">
+    <title type="image">Para que instrumento foi composta esta obra?</title>
+    <choice correct="">Cravo</choice>
+    <choice>Piano</choice>
+    <choice>Harpa</choice>
+    <choice>Guitarra</choice>
+    <explain>Na imagem vemos o excerto inicial de uma fuga a quatro vozes, escrita por J. S. Bach, uma peça para teclado. Na altura de Bach o piano ainda não estava desenvolvido, e o teclado de eleição era o cravo.</explain>
+    <media>images/imagem05a.png</media>
+  </med>
+  
+  <med index="7">
+    <title type="simple">Uma das primeiras grandes óperas da História da Música foi composta por...</title>
+    <choice correct="">Claudio Monteverdi</choice>
+    <choice>W. A. Mozart</choice>
+    <choice>Henry Purcell</choice>
+    <choice>Richard Wagner</choice>
+    <explain>A ópera "La favola d'Orfeo", composta por Claudio Monteverdi em 1607, é uma das primeiras óperas da História da Música, sendo a mais antiga que ainda hoje é executada. Apesar de Henry Purcell, W. A. Mozart e Richard Wagner terem todos composto óperas importantes, estiveram ativos em períodos posteriores.</explain>
+  </med>
+  
+  <med index="8">
+    <title type="image">Em que século foi composta esta obra?</title>
+    <choice correct="">XVIII</choice>
+    <choice>XIX</choice>
+    <choice>XVI</choice>
+    <choice>XVII</choice>
+    <explain>Esta fuga integra a obra "Cravo bem-temperado" de J. S. Bach, uma coleção de 48 prelúdios e fugas em todas as tonalidades maiores e menores. A obra foi publicada em 1722, no século XVIII</explain>
+    <media>images/imagem05b.png</media>
+  </med>
+  
+  <med index="9">
+    <title type="image">Neste excerto, imediatamente a seguir a um sol...</title>
+    <choice correct="">Toco sempre um fá</choice>
+    <choice>Chego ao fim</choice>
+    <choice>Volto ao início</choice>
+    <choice>Vou para a coda</choice>
+    <explain>Neste excerto, tocamos a nota sol duas vezes. Da primeira vez, imediatamente a seguir tocamos um Fá e voltamos ao início (seguindo a indicação "1st time D.C." - primeira vez da capo). Da segunda vez, imediatamente a seguir tocamos um Fá (seguindo a indicação D.S. - del segno) e chegamos ao fim (pois encontramos um "2nd time Fine" - segunda vez fim).</explain>
+    <media>images/imagem06.png</media>
+  </med>
+  
+  <med index="10">
+    <title type="audio">Qual é o instrumento solista neste excerto?</title>
+    <choice correct="">Corne inglês</choice>
+    <choice>Oboé</choice>
+    <choice>Clarinete</choice>
+    <choice>Fagote</choice>
+    <explain>Neste segundo andamento da Sinfonia nº 9 de Antonín Dvorák, conhecida como “Sinfonia do Novo Mundo”, o instrumento solista é o corne inglês.</explain>
+    <media>audio/audio05.mp3</media>
+  </med>
+  
+  <med index="11">
+    <title type="simple">Qual destas óperas não foi composta por Mozart?</title>
+    <choice correct="">La serva padrona</choice>
+    <choice>La nozze di Figaro</choice>
+    <choice>Don Giovanni</choice>
+    <choice>Così fan tutte</choice>
+    <explain>La nozze di Figaro (As Bodas de Fígaro), Don Giovanni e Così fan tutte (Assim fazem todas), três óperas cómicas com libreto de Lorenzo da Ponte, são consideradas as mais importantes obras de Mozart no género. La serva padrona, que ficou conhecida como a primeira ópera cómica da História da Música, foi composta por Giovanni Pergolesi.</explain>
+  </med>
+  
+  <med index="12">
+    <title type="audio">Quem é o compositor?</title>
+    <choice correct="">Wagner</choice>
+    <choice>Mendelssohn</choice>
+    <choice>Brahms</choice>
+    <choice>Strauss</choice>
+    <explain>A peça que escutaste, "Treulich gefuhrt" (Coro nupcial), faz parte da ópera Lohengrin, composta por Richard Wagner em 1850.</explain>
+    <media>audio/audio06.mp3</media>
+  </med>
+  
+  <med index="13">
+    <title type="audio">Quem é o compositor?</title>
+    <choice correct="">Mendelssohn</choice>
+    <choice>Wagner</choice>
+    <choice>Brahms</choice>
+    <choice>Strauss</choice>
+    <explain>Ouviste a obra "Ein Sommernachtstraum" (Sonho de uma noite de verão) composta por Mendelssohn em 1842. Esta música era destinada a acompanhar a representação da peça de teatro homónima de William Shakespeare.</explain>
+    <media>audio/audio07.mp3</media>
+  </med>
+  
+  <med index="14">
+    <title type="audio">Quem é o compositor?</title>
+    <choice correct="">Strauss</choice>
+    <choice>Wagner</choice>
+    <choice>Brahms</choice>
+    <choice>Mendelssohn</choice>
+    <explain>Esta obra é "Also spratch Zarathustra" (Assim falou Zaratustra), um poema sinfónico escrito por Richard Strauss em 1896, e inspirado no ensaio filosófico com o mesmo nome de Friedrich Nietzsche. Foi popularizada pela sua introdução no filme "2001: Odisseia no Espaço".</explain>
+    <media>audio/audio08.mp3</media>
+  </med>
+  
+  <med index="15">
+    <title type="audio">Quem é o compositor?</title>
+    <choice correct="">Brahms</choice>
+    <choice>Wagner</choice>
+    <choice>Strauss</choice>
+    <choice>Mendelssohn</choice>
+    <explain>Esta "Canção de embalar" Op. 49, No. 4, foi composta por Johannes Brahms em 1868. A letra da canção baseia-se num poema popular alemão.</explain>
+    <media>audio/audio09.mp3</media>
+  </med>
+  
+  <med index="16">
+    <title type="audio">Que instrumento estamos a ouvir?</title>
+    <choice correct="">Trompa</choice>
+    <choice>Trombone</choice>
+    <choice>Trompete</choice>
+    <choice>Saxofone</choice>
+    <explain>O excerto que ouviste pertence a "Appel interstellaire", o sexto andamento da obra "Des canyon aux etoiles" (1971) do compositor francês Olivier Messiaen, um andamento para trompa solo, que requer um grande domínio de técnicas contemporâneas por parte do intérprete.</explain>
+    <media>audio/audio10.mp3</media>
+  </med>
+  
+  <med index="17">
+    <title type="simple">Qual destes compositores tem um teatro que foi construído unicamente para a interpretação das suas óperas?</title>
+    <choice correct="">Wagner</choice>
+    <choice>Verdi</choice>
+    <choice>Mozart</choice>
+    <choice>Purcell</choice>
+    <explain>O teatro de Bayreuth, na Alemanha, foi construído especificamente para a execução de óperas de Wagner. Na inauguração, foram tocadas as quatro óperas do ciclo "O anel dos Nibelungos".</explain>
+  </med>
+  
+  <med index="18">
+    <title type="simple">Que compositor tem o repertório mais extenso da História da Música?</title>
+    <choice correct="">Telemann</choice>
+    <choice>J.S. Bach</choice>
+    <choice>Vivaldi</choice>
+    <choice>W.A. Mozart</choice>
+    <explain>Georg Philip Telemann, contemporâneo de Bach, figura no “Guiness World Records” como o compositor mais prolífico de sempre, sendo-lhe atribuídas mais de 800 composições originais.</explain>
+  </med>
+  
+  <med index="19">
+    <title type="simple">Qual destes instrumentos antecede diretamente o oboé?</title>
+    <choice correct="">Charamela</choice>
+    <choice>Dulciana</choice>
+    <choice>Flauta de bisel</choice>
+    <choice>Oboé de amor</choice>
+    <explain>A charamela, um instrumento típico de período barroco, antecede diretamente o oboé.</explain>
+  </med>
+  
+  <med index="20">
+    <title type="simple">Em qual destes pares os compositores não pertencem ao mesmo período histórico?</title>
+    <choice correct="">Machaut e Offenbach</choice>
+    <choice>Bach e Haendel</choice>
+    <choice>Mozart e Haydn</choice>
+    <choice>Purcell e Lully</choice>
+    <explain>Henry Purcell e Jean-Baptiste Lully são compositores do período Barroco, J.S. Bach e G.F. Haendel estiveram ativos no período Barroco tardio, e Mozart e Haydn são dois compositores do Classicismo. Machaut é um compositor da Idade Média enquanto Offenbach viveu no período Romântico.</explain>
+  </med>
+  
+  <med index="21">
+    <title type="simple">Durante a sua vida, J.S. Bach era conhecido sobretudo pela sua atividade enquanto...</title>
+    <choice correct="">Improvisador</choice>
+    <choice>Compositor</choice>
+    <choice>Intérprete</choice>
+    <choice>Mágico</choice>
+    <explain>No seu tempo, as composições de Bach eram pouco apreciadas. Contudo, era considerado um dos melhores organistas e improvisadores da Europa.</explain>
+  </med>
+  
+  <hard index="0">
+    <title type="image">Este compositor foi detido pela polícia de Boston por escrever uma harmonia "estranha" no seu arranjo do hino dos Estados Unidos da América. Estamos a falar de...</title>
+    <choice correct="">Igor Stravinsky</choice>
+    <choice>Ernest Toch</choice>
+    <choice>Paul Hindemith</choice>
+    <choice>Arnold Schoenberg</choice>
+    <explain>Stravinsky, após a sua emigração para os EUA, foi preso por ter escrito um acorde de sétima "onde não devia", no seu arranjo da obra "Star Spangled Banner", o hino do país.</explain>
+    <media>images/imagem07.jpg</media>
+  </hard>
+  
+  <hard index="1">
+    <title type="simple">Qual destes compositores escreveu uma famosa obra para 13 percussionistas?</title>
+    <choice correct="">Edgard Varèse</choice>
+    <choice>Béla Bartók</choice>
+    <choice>Iánis Xenákis</choice>
+    <choice>Pedro Carneiro</choice>
+    <explain>A obra de Edgard Varèse "Ionisation" (1933), para 13 percussionistas, foi uma das primeiras obras escritas unicamente para ensemble de percussão. A instrumentação incluí bigornas, sirenes, um "rugido de leão" e um piano que é tocado como um instrumento de percussão.</explain>
+  </hard>
+  
+  <hard index="2">
+    <title type="simple">A companhia francesa "Ballets Russes", que esteve em atividade entre 1909 e 1929, estreou obras de todos os seguintes compositores, exceto...</title>
+    <choice correct="">Nikolai Rimsky-Korsakov</choice>
+    <choice>Maurice Ravel</choice>
+    <choice>Claude Debussy</choice>
+    <choice>Igor Stravinsky</choice>
+    <explain>Os "Ballets Russes" foram a principal companhia de bailado do seu tempo, tendo estreado obras de diversos compositores, incluindo Claude Debussy ("Prelúdio à sesta de um Fauno"), Igor Stravinsky ("A Sagração da Primavera") e Maurice Ravel ("Dafne e Cloé"). Apesar de terem executado bailados de Rimsky-Korsakov, como a "Xerezade", estas obras tinham sido anteriormente executadas na Rússia.</explain>
+  </hard>
+  
+  <hard index="3">
+    <title type="simple">Qual dos seguintes compositores publicou uma biografia de Frédéric Chopin?</title>
+    <choice correct="">Franz Liszt</choice>
+    <choice>Hector Berlioz</choice>
+    <choice>Robert Schumann</choice>
+    <choice>Felix Mendelssohn</choice>
+    <explain>Franz Liszt e Chopin travaram uma duradoura relação de amizade, e após a morte de Chopin, Lizst publicou um livro intitulado "A vida de Chopin".</explain>
+  </hard>
+  
+  <hard index="4">
+    <title type="audio">Em que ano foi composta esta obra?</title>
+    <choice correct="">1894</choice>
+    <choice>1820</choice>
+    <choice>1753</choice>
+    <choice>1798</choice>
+    <explain>Ouviste um excerto inicial da obra "Prélude à l'après-midi d'un Faune" (Prelúdio à sesta de um Fauno) de Claude Debussy. Esta obra foi estreada em 1894.</explain>
+    <media>audio/audio01.mp3</media>
+  </hard>
+
+  <hard index="5">
+    <title type="simple">O compositor e maestro francês Jean-Baptiste Lully morreu...</title>
+    <choice correct="">Com uma infeção no pé</choice>
+    <choice>Infetado com varíola</choice>
+    <choice>Atropelado por uma carruagem</choice>
+    <choice>Afogado no rio</choice>
+    <explain>Jean-Baptiste Lully foi um dos primeiros músicos a desempenhar a função de maestro, isto é, a dirigir um agrupamento instrumental. Usava um bastão para marcar o tempo, e num ensaio atingiu o seu próprio pé com o bastão. A ferida viria a infetar e o compositor acabou por morrer.</explain>
+  </hard>
+  
+  <hard index="6">
+    <title type="audio">Quem é o compositor?</title>
+    <choice correct="">John Cage</choice>
+    <choice>Phillip Glass</choice>
+    <choice>Terry Riley</choice>
+    <choice>Steve Reich</choice>
+    <explain>A obra 4'33'', de John Cage, consiste numa partitura em branco que deve ser "executada" durante exatamente 4 minutos e 33 segundos. Assim, o que se ouve durante a peça são os sons produzidos pela audiência.</explain>
+    <media>audio/audio11.mp3</media>
+  </hard> 
+  
+  <hard index="7">
+    <title type="image">Qual destes é o sistema de chaves atual, para clarinete, usado em Portugal?</title>
+    <choice correct="">Sistema de Boehm</choice>
+    <choice>Sistema de Oehler</choice>
+    <choice>Sistema de Mollenhauer</choice>
+    <choice>Sistema de Mazzeo</choice>
+    <explain>O sistema de Boehm é o sistema de chaves mais popular em toda a América e Europa, à exceção da Alemanha e Áustria (nestes países, o sistema de chaves utilizado é o de Oehler). Até cerca de 1950, produziam-se clarinetes com uma furação interior do tubo do tipo "cone invertido" tendo a partir de então sido dada preferência, sobretudo por razões de afinação das 12as, aos do tipo "policilíndrico".</explain>
+    <media>images/imagem08.png</media>
+  </hard>
+  
+  <hard index="8">
+    <title type="image">O excerto apresentado pertence à obra [...], composta por [...]. Consiste numa [...] com variações para [...].</title>
+    <choice correct="">Variações Goldberg, J.S. Bach, aria, cravo</choice>
+    <choice>Oferenda Musical, J.S. Bach, aria, cravo</choice>
+    <choice>Suite para violoncelo, J.S. Bach, suíte, violoncelo</choice>
+    <choice>Variações Goldberg, G.F. Haendel, aria, cravo</choice>
+    <explain>O excerto apresentado pertence à obra [Variações Goldberg], composta por [J. S. Bach]. Esta é uma [aria] com variações para [cravo].</explain>
+    <media>images/imagem09.png</media>
+  </hard> 
+  
+  <hard index="9">
+    <title type="simple">Que conhecido compositor tinha como alcunha "Schwammerl" (pequeno cogumelo)?</title>
+    <choice correct="">Schubert</choice>
+    <choice>Chopin</choice>
+    <choice>Bach</choice>
+    <choice>Saint-Saens</choice>
+    <explain>A alcunha de Franz Schubert, entre os seus amigos, era "Schwammerl", uma palavra do dialeto austríaco que significa "pequeno cogumelo".</explain>
+  </hard>
+  
+<hard index="10">
+    <title type="simple">Quem desafiou Beethoven para um concurso de improvisação?</title>
+    <choice correct="">Daniel Steibelt</choice>
+    <choice>W.A. Mozart</choice>
+    <choice>Franz Liszt</choice>
+    <choice>Frédéric Chopin</choice>
+    <explain>Em 1800, Daniel Steibelt desafiou Beethoven para um concurso de improvisação, uma forma popular de entretenimento entre a aristocracia de Viena. Beethoven foi o claro vencedor, e Steibelt, humilhado, jurou que nunca mais voltaria a Viena enquanto Beethoven lá vivesse, promessa que cumpriu.</explain>
+  </hard>
+  
+  <hard index="11">
+    <title type="simple">Qual destas óperas não foi composta por G.F. Haendel?</title>
+    <choice correct="">Rigoletto</choice>
+    <choice>Xerxes</choice>
+    <choice>Giulio Cesare</choice>
+    <choice>Rinaldo</choice>
+    <explain>Rigoletto é uma ópera de Verdi, enquanto que Xerxes, Giulio Cesare e Rinaldo são obras de Haendel.</explain>
+  </hard>
+  
+  <hard index="12">
+    <title type="simple">Quando trabalhava como cantor de igreja na cidade de Leipzig, J.S. Bach tinha a obrigação de compor e executar uma peça nova todos os domingos. De que género musical eram estas obras?</title>
+    <choice correct="">Cantata</choice>
+    <choice>Suite</choice>
+    <choice>Ópera</choice>
+    <choice>Paixão</choice>
+    <explain>Enquanto viveu em Leipzig (de 1923 a 1950), Bach tinha de criar uma cantata nova todas as semanas, para ser executada na missa de domingo. Conhecem-se cerca de 200 cantatas litúrgicas compostas neste período.</explain>
+  </hard>
+  
+  <hard index="13">
+    <title type="simple">Em qual destas cidades J.S. Bach não trabalhou como compositor ou organista?</title>
+    <choice correct="">Dresden</choice>
+    <choice>Leipzig</choice>
+    <choice>Kothen</choice>
+    <choice>Weimar</choice>
+    <explain>Apesar de tocar regularmente na corte de Dresden, onde era muito apreciado, Bach nunca trabalhou nessa cidade.</explain>
+  </hard>
+  
+  <hard index="14">
+    <title type="simple">Qual destas danças não faz parte da suite barroca?</title>
+    <choice correct="">Minueto</choice>
+    <choice>Allemande</choice>
+    <choice>Courante</choice>
+    <choice>Sarabanda</choice>
+    <explain>Atribui-se o estabelecimento do padrão das suítes barrocas ao compositor Johann Froberger. Nas suas suítes há sempre uma allmande, uma courante, uma sarabanda e uma giga, embora a ordem possa variar.</explain>
+  </hard>
+  
+  <hard index="15">
+    <title type="simple">Que obra de John Cage é tida como a performance mais lenta e mais longa de sempre?</title>
+    <choice correct="">As slow as possible</choice>
+    <choice>0'00"</choice>
+    <choice>Music of changes</choice>
+    <choice>Credo in US</choice>
+    <explain>A obra “As slow as possible”, para órgão, foi composta por John Cage em 1987 a partir de um trabalho anterior. A velocidade precisa da obra não está especificada, durando uma interpretação típica, em piano, 20 a 70 minutos. A execução em curso na catedral de Halberstadt, na Alemanha, começou em 2001 e tem a duração prevista de 639 anos.</explain>
+  </hard>
+  
+</questionList>

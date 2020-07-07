@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Quem quer ser Músico?</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+<!--Header-->
+         <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><a href="index.html"><img src="images/logo-conservatorio.png" height="80"></a></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          
+<!--Main Content-->
+          <div class="inner cover">
+            
+            <div>
+              <h1 class="cover-heading">Quem quer ser músico?</h1>
+              <p class="lead" id="cover-title">Conheces os compositores que marcaram a história da Música? <br>Sabes distinguir todos os instrumentos pelo ouvido? <br>És um ás em termos italianos? <br><br>Testa os teus conhecimentos de cultura musical!</p>
+
+              <div id="levelSelectPage">
+                <h3 class="cover-heading">Selecionar dificuldade</h3>
+                <p style="padding: 10px">Seleciona o número de perguntas para cada nível de dificuldade</p>
+
+                <div class="container">
+                  <div class="row" style="vertical-align:middle">
+                    <div class="col-sm-9"><input type="range" min="1" max="5" value="3" class="slider" id="level"></div>
+                    <div class="col-sm-3"><p>Fácil</p></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-9"><input type="range" min="1" max="5" value="3" class="slider" id="level"></div>
+                    <div class="col-sm-3"><p>Médio</p></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-9"><input type="range" min="1" max="5" value="3" class="slider" id="level"></div>
+                    <div class="col-sm-3"><p>Difícil</p></div>
+                  </div>
+                </div>
+
+                <p id="displayLevel"></p>
+                <p id="levelDescriptor"></p>
+              </div>
+            </div>
+
+            <p class="lead" style="position: relative">
+              <a href="#" class="btn btn-lg btn-default" onclick="fn(setup)">Jogar</a>
+            </p>
+
+            <p id="btn-level"><a href="level.html" class="btn btn-default">Selecionar dificuldade</a></p>
+
+          </div>
+
+<!--Footer-->
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Créditos <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="javaLayout.js"></script>
+    
+  </body>
+</html>
